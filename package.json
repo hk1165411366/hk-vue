@@ -10,6 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.9.0",
     "prettier": "^1.12.1",
     "pug": "^2.0.3",
