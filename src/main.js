@@ -18,5 +18,8 @@ new Vue({
   // 注入 store
   store,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  created() {
+    console.log(this.$options)
+  }
 })

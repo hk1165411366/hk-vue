@@ -10,9 +10,7 @@
               <i :class="`fa fa-${item.icon}`"></i>
             </a>
           </div>
-
           <br>
-
           <span v-html="designer"></span>
         </div>
 
@@ -61,7 +59,7 @@ import title from "@/directives/title";
 export default {
   name: "TheFooter",
   directives: {
-      title
+    title
   },
   data() {
     return {
